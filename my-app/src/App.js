@@ -8,18 +8,27 @@ import ShortCirEval from "./component/ShortCirEval";
 import BasicForm from "./component/forms/BasicForm";
 
 function App() {
-  // const[isToggled, setToggled]=useState('mukesh kumar')
-  //  const[myName, setMyName]=useState('mukesh Kumar');
-  //   const changeName=()=>{
-  //     setMyName('Amber Kumar')
+  const [myName, setMyName] = useState("mukesh Kumar");
+  const changeName = () => {
+    let val = myName;
 
-  // }
-  // console.log(myName)
+    // if (val === "mukesh Kumar") {
+    //   setMyName("Amber Kumar");
+    // } else {
+    //   setMyName("mukesh Kumar");
+    // }
+    // ternary operator
+    val === "mukesh kumar"
+      ? setMyName("Amber Kumar")
+      : setMyName("mukesh kumar");
+  };
+  console.log(myName);
   return (
     <div className="app">
-      {/* <h1>{myName}</h1>
+      <h1>Name changes Hooks Using Toogle Feature</h1>
+      <h1>{myName}</h1>
 
-   <button onClick={changeName}>Click me</button> */}
+      <button onClick={changeName}>Click me</button>
 
       <RulesHook />
       <UseStateArray />
