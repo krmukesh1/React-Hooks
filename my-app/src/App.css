@@ -39,7 +39,7 @@
 .h1style {
   display: block;
   margin: 20px auto;
-  height: 51px;
+  height: auto;
   width: 835px;
   border: 2px solid blue;
   border-radius: 30px;
@@ -64,4 +64,48 @@
   margin: auto;
   outline: none;
   border-radius: 20px !important;
+}
+button.btnInner {
+  height: 24px;
+  width: 94px;
+  border-radius: 13px;
+  margin-left: 35px;
+  background: red;
+  color: #fff;
+  outline: none;
+}
+form {
+  display: block;
+  margin: auto;
+  border: 1px solid blue;
+  width: 250px;
+  height: 150px;
+  padding: 30px;
+  background-color: blue;
+}
+input#email {
+  height: 28px;
+  width: 200px;
+  margin: 20px 0;
+  border-radius: 10px;
+  outline: none;
+}
+input#password {
+  height: 28px;
+  width: 170px;
+  margin: 20px 0;
+  border-radius: 10px;
+  outline: none;
+}
+label {
+  font-size: 17px;
+}
+button.sub {
+  text-align: center;
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 80px;
+  border-radius: 16px;
+  outline: none;
 }

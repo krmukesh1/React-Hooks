@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import "./App.css";
+
 import RulesHook from "./component/RulesHook";
 import UseStateArray from "./component/UseStateArray";
+import UseStateObjects from "./component/UseStateObjects";
+import ShortCirEval from "./component/ShortCirEval";
+import BasicForm from "./component/forms/BasicForm";
+
 function App() {
   // const[isToggled, setToggled]=useState('mukesh kumar')
   //  const[myName, setMyName]=useState('mukesh Kumar');
@@ -18,6 +23,9 @@ function App() {
 
       <RulesHook />
       <UseStateArray />
+      <UseStateObjects />
+      <ShortCirEval />
+      <BasicForm />
     </div>
   );
 }
