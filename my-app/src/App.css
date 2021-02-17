@@ -52,6 +52,7 @@
   width: 127px;
   border-radius: 20px;
   cursor: pointer;
+  border: 2px solid black !important;
 }
 .btn:focus {
   display: block;
@@ -69,17 +70,18 @@ button.btnInner {
   height: 24px;
   width: 94px;
   border-radius: 13px;
-  margin-left: 35px;
+  margin-left: 200px;
   background: red;
   color: #fff;
   outline: none;
+  font-size: 16px;
 }
 form {
   display: block;
   margin: auto;
   border: 1px solid blue;
   width: 250px;
-  height: 250px;
+  height: auto;
   padding: 30px;
   background-color: blue;
 }
@@ -114,7 +116,7 @@ button.sub {
 }
 /* bootstrap */
 body {
-  background-color: #b3e5fc;
+  /* background-color: #b3e5fc; */
   border-radius: 10px;
   font-family: "Raleway", sans-serif;
 }
