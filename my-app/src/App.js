@@ -9,6 +9,7 @@ import BasicForm from "./component/forms/BasicForm";
 import MultipleInput from "./component/forms/MultipleInput";
 import UseEffect from "./component/useEffects/UseEffect";
 import UseEffect2 from "./component/useEffects/UseEffect2";
+import UseEffectAPI from "./component/useEffects/UseEffectAPI";
 
 function App() {
   const [myName, setMyName] = useState("mukesh Kumar");
@@ -32,7 +33,7 @@ function App() {
       <h1>{myName}</h1>
 
       <button onClick={changeName}>Click me</button>
-
+      <UseEffectAPI />
       <RulesHook />
       <UseStateArray />
       <UseStateObjects />
