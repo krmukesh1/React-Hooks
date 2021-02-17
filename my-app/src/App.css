@@ -109,3 +109,6 @@ button.sub {
   border-radius: 16px;
   outline: none;
 }
+.center {
+  text-align: center;
+}

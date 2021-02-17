@@ -8,6 +8,7 @@ import ShortCirEval from "./component/ShortCirEval";
 import BasicForm from "./component/forms/BasicForm";
 import MultipleInput from "./component/forms/MultipleInput";
 import UseEffect from "./component/useEffects/UseEffect";
+import UseEffect2 from "./component/useEffects/UseEffect2";
 
 function App() {
   const [myName, setMyName] = useState("mukesh Kumar");
@@ -39,6 +40,7 @@ function App() {
       <BasicForm />
       <MultipleInput />
       <UseEffect />
+      <UseEffect2 />
     </div>
   );
 }
