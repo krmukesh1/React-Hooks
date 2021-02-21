@@ -10,6 +10,7 @@ import MultipleInput from "./component/forms/MultipleInput";
 import UseEffect from "./component/useEffects/UseEffect";
 import UseEffect2 from "./component/useEffects/UseEffect2";
 import UseEffectAPI from "./component/useEffects/UseEffectAPI";
+import Uncontrolled from "./component/forms/Uncontrolled";
 
 function App() {
   const [myName, setMyName] = useState("mukesh Kumar");
@@ -42,6 +43,7 @@ function App() {
       <MultipleInput />
       <UseEffect />
       <UseEffect2 />
+      <Uncontrolled />
     </div>
   );
 }
