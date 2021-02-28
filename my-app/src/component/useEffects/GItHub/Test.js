@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import UseTitleCount from "./GItHub/UseTitleCount";
+import UseTitleCount from "./UseTitleCount";
 
-const UseEffect = () => {
+const Test = () => {
   const [count, setCount] = useState(0);
   //  custom Hook
   UseTitleCount(count);
@@ -11,10 +11,10 @@ const UseEffect = () => {
       <h1>UseEffect </h1>
       <h1>{count}</h1>
       <button className="btn" onClick={() => setCount(count + 1)}>
-        Click Count+
+        Test Count+
       </button>
     </div>
   );
 };
 
-export default UseEffect;
+export default Test;

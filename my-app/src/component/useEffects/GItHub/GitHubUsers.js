@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FcApproval } from "react-icons/fc";
 const GitHubUsers = ({ users }) => {
   return (
     <>
@@ -16,7 +16,9 @@ const GitHubUsers = ({ users }) => {
                       <img src={avatar_url} className="rounded" width="155" />
                     </div>
                     <div className="ml-3 w-100">
-                      <h4 className="mb-0 mt-0 textLeft">{login}</h4>
+                      <h4 className="mb-0 mt-0 textLeft">
+                        {login} <FcApproval />
+                      </h4>
                       <span className="textLeft">{type}</span>
                       <div className="p-2 mt-2 bg-primary d-flex justify-content-between rounded text-white stats">
                         <div className="d-flex flex-column">

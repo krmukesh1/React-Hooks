@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useReducer, useState } from "react";
 import "./App.css";
 
 import RulesHook from "./component/RulesHook";
@@ -11,6 +11,9 @@ import UseEffect from "./component/useEffects/UseEffect";
 import UseEffect2 from "./component/useEffects/UseEffect2";
 import UseEffectAPI from "./component/useEffects/UseEffectAPI";
 import Uncontrolled from "./component/forms/Uncontrolled";
+import UseReducer from "./component/useEffects/UseReducer";
+import ComA from "./component/useContext/ComA";
+import Test from "./component/useEffects/GItHub/Test";
 
 function App() {
   const [myName, setMyName] = useState("mukesh Kumar");
@@ -44,6 +47,10 @@ function App() {
       <UseEffect />
       <UseEffect2 />
       <Uncontrolled />
+      <UseReducer />
+      <ComA />
+
+      <App />
     </div>
   );
 }
